@@ -1,0 +1,199 @@
+@import "./vars";
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media screen and (max-width: 650px) {
+    flex-direction: column;
+  }
+}
+
+.nav_logo {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+
+  p {
+    font-size: 50px;
+    font-weight: 900;
+  }
+}
+
+
+// .nav_link_list {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   gap: 30px;
+
+//   a {
+//     color: $color_gray;
+//     text-decoration: none;
+//     font-size: 20px;
+//     transition: 0.5s ease;
+
+//     &:hover {
+//         color: $color_black;
+//     }
+//   }
+// }
+
+.color_black {
+    a {
+        color: $color_black !important;
+    }
+}
+
+.menu {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 15px 0px;
+
+    @media screen and (max-width: 1250px) {
+        justify-content: end;
+    }
+}
+
+.menu_enlaces {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+
+    p {
+        transition: all 300ms;
+    }
+
+    p:hover {
+        transform: scale(1.1);
+        fill: $color_gray;
+    }
+
+    a {
+        color: $color_gray;
+        text-decoration: none;
+        font-size: 20px;
+        position: relative;
+        transition: .5s ease;
+
+        &:hover {
+            text-decoration: none;
+            color: $color_black;
+        }
+    }
+
+    @media screen and (max-width: 1250px) {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        z-index: 99;
+        top: 0;
+        left: 0;
+        flex-direction: column;
+        justify-content: center;
+        background-color: $color_gray;
+
+        a {
+            color: $color_black;
+        }
+
+        a:hover {
+            color: $color_black;
+            text-shadow: none;
+        }
+
+        a::after {
+            content: none;
+        }
+    }
+
+    &.activeMenu {
+        display: flex;
+    }
+}
+
+.menu_enlaces_a {
+    display: flex;
+    gap: 40px;
+
+    @media screen and (max-width: 1250px) {
+        display: grid;
+    }
+}
+
+.closeMenu {
+    display: none;
+
+    @media screen and (max-width: 1250px) {
+        position: absolute;
+        top: 2em;
+        right: 2em;
+        color: $color_black;
+        font-weight: bold;
+        font-size: 18px;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+}
+
+// Menu de hamburguesa
+.toggle {
+    display: none;
+
+    svg {
+        fill: $color_black;
+        border: none;
+        line-height: 30px;
+        cursor: pointer;
+        transition: .3s ease;
+
+        &:hover {
+            fill: $color_gray;
+        }
+    }
+
+    @media screen and (max-width: 1250px) {
+        display: flex;
+    }
+}
+
+.nav_link_actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+
+  @media screen and (max-width: 650px) {
+    gap: 10px;
+  }
+}
+
+.nav_link_actions_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+
+  img {
+    width: 30px;
+  }
+
+  p {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 300;
+  }
+}

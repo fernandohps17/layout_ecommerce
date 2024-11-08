@@ -1,0 +1,19 @@
+@import './vars';
+
+.bg_bar_top {
+    background: $color_black;
+}
+
+.bar_top {
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    padding: 10px 0;
+
+    span {
+        background-color: $color_gray;
+        padding: 1px 10px;
+        font-size: 15px;
+        border-radius: 20px;
+    }
+}
