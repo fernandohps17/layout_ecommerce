@@ -194,15 +194,184 @@
                             <button class="details_content_btn_add">Add to Cart</button>
                             <button class="details_content_btn_check">Checkout Now</button>
                         </div>
-
-
-
-
                     </div>
                 </div>
             </div>
         </div>
 
+
+
+        <!-- Section productos -->
+        <div class="container">
+            <div class="content">
+                <div class="section_products">
+                    <section class="section_products_title">
+                        <header>
+                            <h2>This item can be cool with this</h2>
+                        </header>
+                    </section>
+
+                    <div class="section_product_item">
+                        <div class="section_product_item_content">
+                            <div class="section_product_item_content_image">
+                                <picture class="picture-defer">
+                                    <source class="image source" type='image/webp' srcset="/public/img/imagen7.webp">
+                                    <img class="image" src="/public/img/imagen7.jpg" alt="Jolt ultrasound" title="Jold ultrasound" width="100" height="100">
+                                </picture>
+                            </div>
+
+                            <div class="section_product_item_content_text">
+                                <div class="section_product_item_content_text_title">
+                                    <p>Clean Jolt</p>
+                                    <span>$349.00</span>
+                                </div>
+
+                                <div class="section_product_item_content_text_icon">
+                                    <picture class="picture-defer">
+                                        <source class="image source" type='image/webp' srcset="/public/icon/shopping_cart.svg">
+                                        <img class="image" src="/public/icon/shopping_cart.svg" alt="Jolt icon" title="Jold icon" width="100" height="100">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="section_product_item_content">
+                            <div class="section_product_item_content_image">
+                                <picture class="picture-defer">
+                                    <source class="image source" type='image/webp' srcset="/public/img/imagen11.webp">
+                                    <img class="image" src="/public/img/imagen11.png" alt="Jolt ultrasound" title="Jold ultrasound" width="100" height="100">
+                                </picture>
+                            </div>
+
+                            <div class="section_product_item_content_text">
+                                <div class="section_product_item_content_text_title">
+                                    <p>Clean Jolt</p>
+                                    <span>$178.00</span>
+                                </div>
+
+                                <div class="section_product_item_content_text_icon">
+                                    <picture class="picture-defer">
+                                        <source class="image source" type='image/webp' srcset="/public/icon/shopping_cart.svg">
+                                        <img class="image" src="/public/icon/shopping_cart.svg" alt="Jolt icon" title="Jold icon" width="100" height="100">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="section_product_item_content">
+                            <div class="section_product_item_content_image">
+                                <picture class="picture-defer">
+                                    <source class="image source" type='image/webp' srcset="/public/img/imagen12.webp">
+                                    <img class="image" src="/public/img/imagen12.png" alt="Jolt ultrasound" title="Jold ultrasound" width="100" height="100">
+                                </picture>
+                            </div>
+
+                            <div class="section_product_item_content_text">
+                                <div class="section_product_item_content_text_title">
+                                    <p>Clean Jolt</p>
+                                    <span>$422.00</span>
+                                </div>
+
+                                <div class="section_product_item_content_text_icon">
+                                    <picture class="picture-defer">
+                                        <source class="image source" type='image/webp' srcset="/public/icon/shopping_cart.svg">
+                                        <img class="image" src="/public/icon/shopping_cart.svg" alt="Jolt icon" title="Jold icon" width="100" height="100">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="section_product_item_content">
+                            <div class="section_product_item_content_image">
+                                <picture class="picture-defer">
+                                    <source class="image source" type='image/webp' srcset="/public/img/imagen13.webp">
+                                    <img class="image" src="/public/img/imagen13.png" alt="Jolt ultrasound" title="Jold ultrasound" width="100" height="100">
+                                </picture>
+                            </div>
+
+                            <div class="section_product_item_content_text">
+                                <div class="section_product_item_content_text_title">
+                                    <p>Clean Jolt</p>
+                                    <span>$231.00</span>
+                                </div>
+
+                                <div class="section_product_item_content_text_icon">
+                                    <picture class="picture-defer">
+                                        <source class="image source" type='image/webp' srcset="/public/icon/shopping_cart.svg">
+                                        <img class="image" src="/public/icon/shopping_cart.svg" alt="Jolt icon" title="Jold icon" width="100" height="100">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- Footer -->
+         <div class="container bg_footer">
+            <div class="content">
+                <div class="footer">
+                    <div class="footer_top">
+                        <div class="footer_top_text">
+                            <div class="footer_top_text_logo">
+                                <p>Jolt</p>
+                                <span>Experience the great outdoors in style with jolts, shop now and gear up for adventura in Jolt</span>
+                            </div>
+                        </div>
+
+                        <div class="footer_top_text_nav">
+                            <div class="footer_top_text_nav_link">
+                                <p>Categories</p>
+                                <div class="footer_top_text_nav_link_ul">
+                                    <a href="#">Jacket</a>
+                                    <a href="#">Shirt</a>
+                                    <a href="#">Knit</a>
+                                    <a href="#">T-Shirt</a>
+                                    <a href="#">Bottoms</a>
+                                    <a href="#">Accesories</a>
+                                </div>
+                            </div>
+
+                            <div class="footer_top_text_nav_link">
+                                <p>Customer care</p>
+                                <div class="footer_top_text_nav_link_ul">
+                                    <a href="#">FAQS</a>
+                                    <a href="#">Shipping</a>
+                                    <a href="#">Order Status</a>
+                                    <a href="#">Return & Exchange</a>
+                                </div>
+                            </div>
+
+                            <div class="footer_top_text_nav_link">
+                                <p>Company</p>
+                                <div class="footer_top_text_nav_link_ul">
+                                    <a href="#">Privacy</a>
+                                    <a href="#">Guides</a>
+                                    <a href="#">Terms of Conditions</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="footer_top_text_social">
+
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="footer_bottom"></div>
+                </div>
+            </div>
+         </div>
 
 
 

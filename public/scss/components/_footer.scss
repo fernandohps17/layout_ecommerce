@@ -1,0 +1,17 @@
+@import './vars';
+
+.bg_footer {
+    background: $color_black;
+    color: white;
+}
+
+
+.footer_top_text_logo {
+    font-size: 40px;
+    font-weight: 600;
+
+    span {
+        color: gray;
+        font-size: 17px;
+    }
+}
