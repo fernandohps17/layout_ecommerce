@@ -312,14 +312,14 @@
 
 
         <!-- Footer -->
-         <div class="container bg_footer">
+        <div class="container bg_footer">
             <div class="content">
                 <div class="footer">
                     <div class="footer_top">
                         <div class="footer_top_text">
                             <div class="footer_top_text_logo">
                                 <p>Jolt</p>
-                                <span>Experience the great outdoors in style with jolts, shop now and gear up for adventura in Jolt</span>
+                                <span>Experience the great outdoors in style with jolts, <br> shop now and gear up for adventura in Jolt</span>
                             </div>
                         </div>
 
@@ -360,18 +360,44 @@
 
 
                         <div class="footer_top_text_social">
-
+                            <a href="https://www.facebook.com" target="_blank">
+                                <picture class="picture-defer">
+                                    <source class="image source" type='image/webp' srcset="/public/icon/facebook.svg">
+                                    <img class="image" src="/public/icon/facebook.svg" alt="Jolt icon" title="Jold icon" width="100" height="100">
+                                </picture>
+                            </a>
+                            <a href="https://www.instagram.com" target="_blank">
+                            <picture class="picture-defer">
+                                <source class="image source" type='image/webp' srcset="/public/icon/instagram.svg">
+                                <img class="image" src="/public/icon/instagram.svg" alt="Jolt icon" title="Jold icon" width="100" height="100">
+                            </picture>
+                            </a>
+                            <a href="https://www.youtube.com" target="_blank">
+                            <picture class="picture-defer">
+                                <source class="image source" type='image/webp' srcset="/public/icon/youtube.svg">
+                                <img class="image" src="/public/icon/youtube.svg" alt="Jolt icon" title="Jold icon" width="100" height="100">
+                            </picture>
+                            </a>
+                            <a href="https://www.x.com" target="_blank">
+                            <picture class="picture-defer">
+                                <source class="image source" type='image/webp' srcset="/public/icon/x.svg">
+                                <img class="image" src="/public/icon/x.svg" alt="Jolt icon" title="Jold icon" width="100" height="100">
+                            </picture>
+                            </a>
                         </div>
                     </div>
+                    <p class="p_footer">Call us · 12345678 | Send Email | USD$</p>
 
 
 
 
 
-                    <div class="footer_bottom"></div>
+                    <div class="footer_bottom">
+                        <p>© 2024 Jols Studio Inc, All Rights Reserved </p>
+                    </div>
                 </div>
             </div>
-         </div>
+        </div>
 
 
 

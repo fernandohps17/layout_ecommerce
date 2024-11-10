@@ -12,6 +12,15 @@
     gap: 20px;
     justify-content: space-between;
     align-items: center;
+
+    @media screen and (max-width: 1300px) {
+        flex-wrap: wrap;
+    }
+
+    @media screen and (max-width: 710px) {
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .section_product_item_content {
